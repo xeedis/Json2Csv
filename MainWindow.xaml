@@ -1,0 +1,26 @@
+﻿<Window x:Class="Json2Csv.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Json2Csv"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Name="JsonContent" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" PreviewKeyDown="JsonContent_PreviewKeyDown"/>
+
+        <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical" Height="151" Width="121">
+            <Button Name="LoadFile" Content="Load File" Margin="10" Click="LoadFile_Click"/>
+            <Button Name ="ConvertButton" Content="Convert" Height="22" Width="100" Click="ConvertButton_Click"/>
+            <Button Name="ClearButton" Content="Clear" Margin="10" Click="ClearButton_Click"></Button>
+        </StackPanel>
+
+        <TextBox Name="CsvContent" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"/>
+    </Grid>
+</Window>

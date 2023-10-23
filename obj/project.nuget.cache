@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "K6E+lhWYQPhzmlu4e3crCzhGPyIcFFBY9VQQ3MsE8EiLXhFUPPntyd1ZgjM9BBVUUwWNRg/wKRfpNNLg3HDG0A==",
+  "success": true,
+  "projectFilePath": "D:\\.NET\\Daily Projects\\Json2Csv\\Json2Csv.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ktarn\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
